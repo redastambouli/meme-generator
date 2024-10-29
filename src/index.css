@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #abc6cf 1.18%, #4e9dc0 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+  color: black;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg, #abc6cf 1.18%, #4e9dc0 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form--input {
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+.form--input:focus {
+  outline: none;
+}
