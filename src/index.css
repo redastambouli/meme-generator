@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -42,8 +46,25 @@ main {
 
 .form {
   display: grid;
-  grid-template: 40px 40px / 1fr 1fr;
+  grid-template: 100% 100% / 1fr 1fr;
   gap: 17px;
+}
+
+.form--label {
+  padding-left: 3px;
+}
+
+.form--input {
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 5px;
+  height: 35px;
+  width: 100%;
+  margin-top: 3px;
+}
+
+.form--input:focus {
+  outline: none;
 }
 
 .form--button {
@@ -54,11 +75,11 @@ main {
   cursor: pointer;
 }
 
-.form--input {
-  border: 1px solid #D5D4D8;
-  border-radius: 5px;
-  text-indent: 5px;
-}
-.form--input:focus {
-  outline: none;
+.meme--image {
+  display: block;
+  max-width: 100%;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
