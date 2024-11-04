@@ -8,7 +8,7 @@ const Header = () => {
                 className='header--image'
             />
             <h2 className='header--title'>Meme Generator</h2>
-            <h4 className='Header--project'>React Course - Project 3</h4>
+            <h4 className='Header--project' style={{ display: 'none' }}>React Course - Project 3</h4>
         </header>
     )
 }
